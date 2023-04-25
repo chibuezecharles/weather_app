@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./wheather_app.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="search_container">
+                <input type="text" name="user_input"  id="user_input" placeholder="Enter the city name">
+                <button type="submit" id="search">Search</button>
+            </div>
+            <div class="wheather_details_container">
+                <h1 class="country_name"> </h1>
+                <p class="temperature"></p>
+                <div class="description_container">
+                    <img src="" alt="weather Image" id="weather_img">
+                    <p class="description"></p>
+                </div>
+                <p class="pressure"></p>
+                <p class="humidity"></p>
+                <p class="wind_speed"></p>
+            </div>
+       </div>
+    </main>
+</body>
+</html>
